@@ -1,0 +1,26 @@
+{
+	"name" : "Acl",
+	"display_name" : "Access Control List",
+	"description" : "This middleware is used by user roles. It checks the role configuration and allows/blocks user's connection to a particular resource.",
+	"module_type" : "middlewares",
+	"app_type" : "games",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-modules/games-middlewares-tools-acl",
+	"class" : "Apps\\Games\\Middlewares\\Acl",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.1",
+			"repo" : "https://dev.bazaari.com.au/sp-core/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : []
+	},
+	"settings" : []
+}
